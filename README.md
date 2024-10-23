@@ -119,7 +119,7 @@
 
 ## 4. Reflections on Managing Databases: Azure vs. GCP
 
-- **📌** _**Setting up and Configurating Databases**_
+- **📌** _**Setting up and Configuring Databases**_
     
     |       **Azure**              |           **GCP**             |
     |------------------------------|-------------------------------|
