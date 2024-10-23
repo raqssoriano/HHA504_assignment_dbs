@@ -82,13 +82,69 @@
 
     <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/13%20-%20monitor%203.png" width="600" />.
 
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/monitor%20-%20queries%201.png" width="550" />.
+    
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/monitor%20-%20queries%202.png" width="550" />.
+
     <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/14.png" width="600" />.
 
 ---
 
-## 3. Explore BigQuery (GCP)
+## 3. Explored BigQuery (GCP)
 
-### **`<<< THIS IS ALL FOR NOW... MORE UPDATES TO FOLLOW... THANKS! >>>`**
+  - In GCP, I navigated to BigQuery and created a dataset named **`raqs_query_dataset`**.
+
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/16%20-%20create%20dataset.png" width="400" />.
+    
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/17%20-%20dataset.png" width="300" />.
+    
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/18%20-%20dataset%20created.png" width="550" />.
+    
+  - Loaded a small sample data file into a table within the dataset (CSV file) and created a table named **`personality-types`**.
+  - Link to my chosen dataset: [Kaggle: Personality Types](https://www.kaggle.com/datasets/stealthtechnologies/predict-people-personality-types/data)
+
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/19.png" width="550" />.
+
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/20%20-%20uploaded%20kaggle%20dataset.png" width="600" />.
+    
+  - Ran two simple queries against the dataset to retrieve specific data.
+
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/21.png" width="600" />.
+    
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/23%20-%20simple%20query%202.png" width="600" />.
+    
+    <img src="https://github.com/raqssoriano/HHA504_assignment_dbs/blob/main/GCP-SQL/22%20-%20simple%20query%201.png" width="600" />.
+
+---
+
+## 4. Reflections on Managing Databases: Azure vs. GCP
+
+- **📌** _**Setting up and Configurating Databases**_
+    
+    |       **Azure**              |           **GCP**             |
+    |------------------------------|-------------------------------|
+    | Azure portal provides a user-friendly interface for configuring databases,      |  GCP offers similar functions, but it provides a more straightforward interface for configuring and managing databases.        |
+
+
+- **📌** _**Monitoring Database Services**_
+
+  Both Azure and GCP offers robust monitoring tools.
+
+    |       **Azure**              |           **GCP**             |
+    |------------------------------|-------------------------------|
+    | Azure offers an extensive monitoring for services which includes databases | GCP offers similar strengths for its services |
+    | Both Azure and GCP gather different range of metrics and logs related to usage, availability, and performance.  | Additionally, their dashboards are customizable. |
+    | Azure provides a centralized view of the costs beyond just database services, which gives me an option to analyze trends and set up budgets. | In my view, GCP offers more detailed billing information and cost breakdowns for the database services created.
+
+
+- **📌** _**Creating and Making Queries**_
+
+   Both Azure and GCP offer tools for SQL databases.
+
+    |        **Azure**             |            **GCP**            |
+    |------------------------------|-------------------------------|
+    | Azure can handle SQL queries | GCP also handles SQL queries and offers BigQuery, which can handle large and complex analytical queries. I was able to run queries directly in the GCP console. |
 
 
 
+- **📌** Both Azure and GCP provide comprehensive services for setting up, configuring, monitoring, and retrieving data from databases (SQL). The choice will depend on the specific needs of the user. I personally prefer GCP because I find it easier to use and navigate due to its more straightforward interface, making it a little less complicated.
